@@ -102,7 +102,7 @@ div.col-auto > h3 {
 }
 
 .carousel-caption {
-	bottom: 10%;
+	bottom: 25%;
 }
 
 @media (max-width: 1800px) {
