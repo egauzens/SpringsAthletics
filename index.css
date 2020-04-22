@@ -1,0 +1,113 @@
+body {
+	background-color: black;
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	min-width: 308px;
+}
+
+#mainNavbar .navbar-brand {
+	color: #EA1C2C;
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+	background-color: black;
+}
+
+#mainNavbar .nav-link {
+	color: white;
+}
+
+#mainNavbar .nav-link:hover {
+	color: #EA1C2C;
+}
+
+#headingGroup {
+	font-weight: 100;
+    font-size: 4rem;
+}
+
+#footer {
+	background-color: white;
+	color: black;
+}
+
+.schedule-background {
+	top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	background-image: linear-gradient(to right, #0000FF, #DE3375), url("imgs/schedule_background_large.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+	opacity: .25;
+}
+
+#largeHeaderImage {
+	background-image: url("imgs/header_large.png");
+}
+
+#smallHeaderImage {
+	background-image: url("imgs/header_small.png");
+}
+
+.blurred-border {
+	box-shadow: 0 0 10px 10px black inset;
+}
+
+.infront {
+	z-index: 1;
+}
+
+#crossfitImage {
+	background-image: url("imgs/crossfit-image.png");
+}
+
+#bootcampImage {
+	background-image: url("imgs/bootcamp-image.png")
+}
+
+.background-image-container {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.card {
+	width: 100%;
+	max-width: 540px;
+	padding: 10%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	border: 1px solid white;
+	background-color: black; 
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+div.col-auto > h2:nth-child(2n), div.col-auto > h3:nth-child(2n) {
+	color: #b3b3b3;
+}
+
+div.col-auto > h3 {
+	font-size: 4vw;
+}
+
+.carousel-caption {
+	bottom: 10%;
+}
+
+@media (max-width: 1800px) {
+	#headingGroup h1{
+		font-weight: 100;
+    	font-size: 3rem;
+	}
+}
