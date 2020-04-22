@@ -46,11 +46,11 @@ body {
 }
 
 #largeHeaderImage {
-	background-image: url("imgs/header_large.PNG");
+	background-image: url("imgs/header_large.png");
 }
 
 #smallHeaderImage {
-	background-image: url("imgs/header_small.PNG");
+	background-image: url("imgs/header_small.png");
 }
 
 .blurred-border {
@@ -62,7 +62,7 @@ body {
 }
 
 #crossfitImage {
-	background-image: url("imgs/crossfit-image.PNG");
+	background-image: url("imgs/crossfit-image.png");
 }
 
 #bootcampImage {
